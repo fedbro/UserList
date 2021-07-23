@@ -43,7 +43,7 @@ class UserList extends Component {
 
  <div>
    <span> {item.id}</span>
-  <img style={{height:100,borderRadius:50,width:100}} src={item.avatar}></img></div>
+  <img alt="User" style={{height:100,borderRadius:50,width:100}} src={item.avatar}></img></div>
    <div > <span>{item.first_name} - {item.last_name}</span></div>
     <span>{item.email}</span></Container>
     </Col>
